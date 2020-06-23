@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<title>CRUDTestJob</title>
+	 <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="style/styleCss.css"/>
+</head>
+<body>
+	
+	<header>
+		<nav class="menu">
+		    <div class="nav-wrapper">
+		      <a href="/" class="brand-logo">Gestão de voluntariado</a>
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a href="/campanha/index" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Campanhas</a></li>
+<!-- 		        <li><a href="/configuracao/index" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Configuração</a></li> -->
+		        <li><a href="/usuario/index" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Registrar</a></li>
+		        <li><a href="/logout" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Sair</a></li>
+<!-- 		      	  <li sec:authorize="isAuthenticated()">Bem vindo, <span sec:authentication="nome"></span></li> -->
+<!-- 		      	  <li sec:authorize="isAnonymous()"><a class="nav-link" href="/login">Entrar</a></li> -->
+<!-- 				  <li sec:authorize="isAuthenticated()"><a class="nav-link" href="/logout">Sair</a></li> -->
+				  
+				  
+		      </ul>
+		      
+ 
+		    </div>
+		   
+
+		</nav>
+
+	</header>
+
+	
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+</body>
+
+
+</html>
